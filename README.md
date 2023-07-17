@@ -13,7 +13,7 @@ Conteúdos das aulas da trilha de front. 💙
 1. Módulo Redux
 1. Módulo Angular
 
-## Repos techleads
+## ℹ️ User do Github techleads
 - RafaelR4mos (Rafael Ramos)
 - cristijung (Cristina Jung)
 
