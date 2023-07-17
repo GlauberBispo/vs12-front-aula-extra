@@ -4,14 +4,14 @@ Conteúdos das aulas da trilha de front. 💙
 
 ## Sumário
 
-1. [Padrão de nomenclatura de repo](#-padrao-de-nomenclatura-de-repositorio)
-1. [Módulo HTML e CSS](https://github.com/vemser/frontend-12-edicao)
-1. [Módulo JavaScript](https://github.com/vemser/frontend-12-edicao)
-1. [Módulo React + TS](https://github.com/vemser/frontend-12-edicao)
-1. [Módulo Testes Unitários](https://github.com/vemser/frontend-12-edicao)
-1. [Módulo Context](https://github.com/vemser/frontend-12-edicao)
-1. [Módulo Redux](https://github.com/vemser/frontend-12-edicao)
-1. [Módulo Angular](https://github.com/vemser/frontend-12-edicao)
+1. Padrão de nomenclatura de repo
+1. Módulo HTML e CSS
+1. Módulo JavaScript
+1. Módulo React + TS
+1. Módulo Testes Unitários
+1. Módulo Context
+1. Módulo Redux
+1. Módulo Angular
 
 ## ⚙️ Padrão de nomenclatura de repositório:
 
