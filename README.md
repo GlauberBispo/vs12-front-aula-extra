@@ -2,6 +2,13 @@
 
 Conteúdos das aulas da trilha de front. 💙
 
+Padrão de nomenclatura de repositório:
+```
+vs12-front/modulo/task00
+
+vs12-front/html-e-css/task01 //exemplo
+```
+
 ## Sumário
 
 1. [Módulo HTML e CSS](https://github.com/vemser/frontend-12-edicao)
