@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img alt="imagem do site pronto no vercel" src="./src/assets/todo-app.png">
+  <img alt="imagem do site pronto no vercel" src="./assets/img-exemplo-site.png">
 </p>
 
 <p align="center">
