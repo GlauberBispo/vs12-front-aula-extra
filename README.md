@@ -2,7 +2,7 @@
 
 Conteúdos das aulas da trilha de front. 💙
 
-Padrão de nomenclatura de repositório:
+⚙️ Padrão de nomenclatura de repositório:
 ```
 vs12-front/modulo/task00
 
