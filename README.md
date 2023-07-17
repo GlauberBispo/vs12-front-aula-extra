@@ -13,6 +13,10 @@ Conteúdos das aulas da trilha de front. 💙
 1. Módulo Redux
 1. Módulo Angular
 
+## Repos techleads
+- RafaelR4mos (Rafael Ramos)
+- cristijung (Cristina Jung)
+
 ## ⚙️ Padrão de nomenclatura de repositório:
 
 O nome do repositório será composto por:
