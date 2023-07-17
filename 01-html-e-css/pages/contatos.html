@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contatos</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="./sobre.html">Sobre</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+  <br>
+  <br>
+  <main>
+    <h1>Preencha seus dados</h1>
+    <h2>Entre em contato conosco, e retire suas dúvidas</h2>
+
+    <form>
+
+      <fieldset>
+        <legend>Dados do usuário</legend>
+        <label for="name">Digite seu nome:</label>
+        <input id="name" type="text" placeholder="Tipo texto" required>
+
+        <label for="email">Digite seu e-mail:</label>
+        <input id="email" type="email" placeholder="Tipo E-mail" required>
+
+        <label for="age">Digite sua idade:</label>
+        <input min="0" id="age" type="number" placeholder="Tipo Número" inputmode="numeric" required>
+
+        <label for="birthdate">Data de nascimento:</label>
+        <input id="birthdate" type="date">
+
+        <label for="password">Digite sua senha:</label>
+        <input id="password" type="password" placeholder="Tipo senha" required>
+
+
+        <select>
+          <option value="">Selecione uma fruta</option>
+          <option value="">Banana</option>
+          <option value="">Maça</option>
+          <option value="">Morango</option>
+        </select>
+
+        <br>
+        <label for="experience">Digite a sua experiência:</label>
+        <textarea id="experience" placeholder="Conte-nos sua experiência">
+
+        </textarea>
+
+        <br>
+        <button type="submit">Enviar</button>
+      </fieldset>
+    </form>
+  </main>
+</body>
+
+</html>
