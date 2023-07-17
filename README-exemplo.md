@@ -46,7 +46,3 @@ npm run dev
 O projeto é um Todo básico onde você pode adicionar uma nova atividade, excluir ou marcar como concluída, além de trazer dados de quantas tarefas foram criadas e quantas estão concluídas.
 
 - Links do figma (caso tiver)
-
----
-
-Made with 💙 by Dev vem ser
