@@ -1,0 +1,116 @@
+/*Tirando a decoração padrão da tag <a> {
+  text-decoration: none;
+  color: black;
+} */
+
+/*Definindo uma cor e tamanho para uma caixa {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+} */
+
+/* .span-inline {
+  display: inline-block;
+} */
+
+/* 
+.remove {
+  display: none;
+} */
+
+/* .remove {
+  visibility: hidden;
+} */
+
+/* .baloon {
+  position: relative;
+  margin: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.baloon span {
+  width: 20px;
+  height: 20px;
+  background-color: orange;
+  position: absolute;
+  right: 0;
+  top: -5px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+} */
+
+/* .list-container li {
+  list-style: none;
+}
+
+.list-container li::before {
+  content: "aa";
+  width: 10px;
+  height: 10px;
+  background-color: #4f772c;
+  border-radius: 50%;
+} */
+
+.header-container {
+  background-color: var(--primary);
+  position: sticky;
+  padding: 16px 8px;
+  top: 0;
+  width: 100%;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--white);
+  margin: 0 4px;
+}
+
+form {
+  margin-top: 24px;
+}
+
+form label {
+  display: block;
+}
+
+button[type="submit"] {
+  all: unset;
+  background-color: var(--primary);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--primary-hover);
+}
+
+.input-form {
+  padding: 6px 4px;
+  border: 1px solid rgb(58, 58, 58);
+  border-radius: 4px;
+  margin: 8px 0;
+}
+
+/* .input-form:invalid {
+  border-color: red;
+}
+
+.input-form:valid {
+  border-color: green;
+}
+
+.input-form:focus {
+  border: 1px solid #2a3f18;
+} */
+
+.custom-icon {
+  width: 24px;
+  color: var(--primary);
+}

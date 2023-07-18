@@ -1,0 +1,25 @@
+:root {
+  --background: #2434b3;
+  --primary: #051816;
+  --primary-hover: #143632;
+
+  --white: #efefef;
+  --black: #00000;
+  --border-radius: 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  font-family: "Inter", sans-serif;
+  color: var(--white);
+}
+
+main {
+  padding: 24px 48px;
+}
