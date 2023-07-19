@@ -1,0 +1,110 @@
+/* :root {
+  font-size: 16px;
+}
+
+.absolute {
+  font-size: 18px;
+}
+
+.div-pai-em {
+  font-size: 20px;
+}
+
+.div-pai-em p {
+  font-size: 2em;
+}
+
+.with-rem {
+  font-size: 1.6rem;
+}
+
+ */
+
+.flex-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 0 100px;
+  height: 100px;
+  background-color: tomato;
+  border-radius: 4px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.flex-item:nth-child(2) {
+  order: 3;
+}
+
+.form {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* .form input {
+  flex: 1 1 80px;
+
+   flex-grow: 1;
+  flex-basis: 0;
+  flex-basis: 80px; 
+} */
+/* 
+.form input:nth-child(1) {
+  flex: 1 0 300px;
+}
+
+.form input:nth-child(2) {
+  flex: 0.3 1 50px;
+}
+
+.form button[type="submit"] {
+  background-color: tomato;
+  border-radius: 4px;
+  flex: 0.1 1 80px;
+  color: white;
+} */
+
+main {
+  background-color: tomato;
+}
+
+aside {
+  background-color: brown;
+}
+
+main,
+aside {
+  min-width: 100%;
+}
+
+.page-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1rem;
+  max-width: 100vw;
+  height: 100vh;
+}
+
+.card-thumbs {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.cards {
+  display: grid;
+  gap: 1rem;
+}
+
+.video {
+  grid-row: 1 / 3;
+  background-color: brown;
+}
