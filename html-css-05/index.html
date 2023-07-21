@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/index.css">
+  <title>Bootstrap</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="navBar">
+  <header>
+    <nav class="navbar  bg-dark custom-nav" data-bs-theme="dark">
+      <div>
+        <a class="navbar-brand" href="#">Game of Thrones</a>
+      </div>
+
+      <div class="links-wrapper">
+        <a href="#carousel-section" class="btn btn-dark">Explore</a>
+        <a href="#houses-section" class="btn btn-dark">Casas</a>
+        <a href="#characters-section" class="btn btn-dark">Personagens</a>
+        <a href="./pages/rate.html" class="btn btn-outline-light">Avalie</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu-mobile"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <aside class="offcanvas offcanvas-end" tabindex="-1" id="menu-mobile" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a href="" class="btn btn-dark">Explore</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="btn btn-dark">Casas</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="btn btn-dark">Personagens</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="btn btn-outline-light">Avalie</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </nav>
+  </header>
+
+  <main>
+    <section id="carousel-section" class="carousel-container">
+      <h1>Game of Thrones</h1>
+      <span>Explore Westeros</span>
+
+
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/daenerys.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/snow-e-bran.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/cavalaria.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/arya-stark.webp" class="d-block w-100" alt="">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="houses-section" class="houses-container">
+      <h2>As casas</h2>
+      <span>Conheça as principais casas do GOT</span>
+
+      <div class="houses-content-container">
+        <div class="houses">
+          <img src="./assets/house-targaryen.webp" alt="">
+          <img src="./assets/stark-house.jpg" alt="">
+          <img src="./assets/house-targaryen.webp" alt="">
+          <img src="./assets/stark-house.jpg" alt="">
+        </div>
+
+        <div class="houses-info">
+          <div class="card">
+            <h3>Targaryen</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error praesentium quaerat illum laboriosam
+              deleniti
+              commodi ipsa labore molestiae consectetur iste esse obcaecati velit facere modi corporis architecto est
+              eaque,
+              reprehenderit exercitationem, similique officiis cum perspiciatis repellendus? Vel ullam consequuntur
+              maxime,
+              quas reiciendis fuga. Quis doloribus perspiciatis neque nostrum amet facilis?
+              reprehenderit exercitationem, similique officiis cum perspiciatis repellendus? Vel ullam consequuntur
+              maxime,
+              quas reiciendis fuga. Quis doloribus perspiciatis neque nostrum amet facilis?
+            </p>
+            <h3>Stark</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error praesentium quaerat illum laboriosam
+              deleniti
+              commodi ipsa labore molestiae consectetur iste esse obcaecati velit facere modi corporis architecto est
+              eaque,
+              reprehenderit exercitationem, similique officiis cum perspiciatis repellendus? Vel ullam consequuntur
+              maxime,
+              quas reiciendis fuga. Quis doloribus perspiciatis neque nostrum amet facilis?
+              reprehenderit exercitationem, similique officiis cum perspiciatis repellendus? Vel ullam consequuntur
+              maxime,
+              quas reiciendis fuga. Quis doloribus perspiciatis neque nostrum amet facilis?
+            </p>
+            <h3>Baratheon</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error praesentium quaerat illum laboriosam
+              deleniti
+              commodi ipsa labore molestiae consectetur iste esse obcaecati velit facere modi corporis architecto est
+              eaque,
+              reprehenderit exercitationem, similique officiis cum perspiciatis repellendus? Vel ullam consequuntur
+              maxime,
+              quas reiciendis fuga. Quis doloribus perspiciatis neque nostrum amet facilis?
+              reprehenderit exercitationem, similique officiis cum perspiciatis repellendus? Vel ullam consequuntur
+              maxime,
+              quas reiciendis fuga. Quis doloribus perspiciatis neque nostrum amet facilis?
+            </p>
+            <h3>Lannister</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error praesentium quaerat illum laboriosam
+              deleniti
+              commodi ipsa labore molestiae consectetur iste esse obcaecati velit facere modi corporis architecto est
+              eaque,
+              reprehenderit exercitationem, similique officiis cum perspiciatis repellendus? Vel ullam consequuntur
+              maxime,
+              quas reiciendis fuga. Quis doloribus perspiciatis neque nostrum amet facilis?
+              reprehenderit exercitationem, similique officiis cum perspiciatis repellendus? Vel ullam consequuntur
+              maxime,
+              quas reiciendis fuga. Quis doloribus perspiciatis neque nostrum amet facilis?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="characters-section" class="characters-container">
+      <h2>Os Personagens</h2>
+      <span>Grandes ícones da série</span>
+
+      <div class="characters-galery">
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/arya-stark.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Arya Stark</h3>
+            <span class="card-subtitle">Subtitulo</span>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#arya-stark">
+              Mais informações
+            </button>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/arya-stark.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Arya Stark</h3>
+            <span class="card-subtitle">Subtitulo</span>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-dark">Mais informações</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/arya-stark.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Arya Stark</h3>
+            <span class="card-subtitle">Subtitulo</span>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-dark">Mais informações</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/arya-stark.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Arya Stark</h3>
+            <span class="card-subtitle">Subtitulo</span>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-dark">Mais informações</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/arya-stark.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Arya Stark</h3>
+            <span class="card-subtitle">Subtitulo</span>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-dark">Mais informações</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/arya-stark.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Arya Stark</h3>
+            <span class="card-subtitle">Subtitulo</span>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-dark">Mais informações</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/arya-stark.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Arya Stark</h3>
+            <span class="card-subtitle">Subtitulo</span>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-dark">Mais informações</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./assets/arya-stark.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Arya Stark</h3>
+            <span class="card-subtitle">Subtitulo</span>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-dark">Mais informações</a>
+          </div>
+        </div>
+
+        <div class="modal fade" id="arya-stark" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Arya Stark</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium error repellendus doloremque
+                  dolore illum mollitia numquam, sint sequi et quasi molestias saepe? Voluptates recusandae sit, ducimus
+                  dolores autem harum repellat amet enim excepturi asperiores blanditiis. Praesentium harum placeat
+                  velit perferendis.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
