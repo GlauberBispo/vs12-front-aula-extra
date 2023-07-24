@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #000000;
+}
+.container button {
+  all: unset;
+  padding: 0.6rem 0.8rem;
+  border-radius: 4px;
+  transition: all 0.2s;
+  cursor: pointer;
+  background-color: aliceblue;
+}
+.container button:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=styles.css.map */
