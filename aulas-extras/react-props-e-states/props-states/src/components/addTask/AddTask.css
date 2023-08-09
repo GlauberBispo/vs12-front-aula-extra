@@ -1,0 +1,32 @@
+.add-task-container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: stretch;
+  justify-content: center;
+  width: 60%;
+  margin: -24px auto;
+}
+
+.add-task-container > input {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--black);
+  color: var(--gray-text);
+}
+
+.add-task-container > input:focus {
+  outline: 0;
+}
+
+.add-task-container > button {
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: var(--white);
+  background-color: var(--light-blue);
+  cursor: pointer;
+}
